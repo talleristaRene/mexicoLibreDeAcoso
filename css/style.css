@@ -1,0 +1,154 @@
+/* 
+    René Martínez
+    fecha: 29 Octubre 2021
+*/
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container-body{
+    background-color:rgba(222, 184, 135, 0.747);
+}
+
+/* Cabecera */
+header{
+    width: 100%;
+    height: 40px;
+    background: rgba(193, 166, 0, 0.87);
+    color: black;
+    position: fixed;
+    justify-content: space-between;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+#cabecera{
+    width: 100%;
+    padding: 1px;
+    text-align: center;
+    position: fixed;
+    top: 0px;
+}
+#cabecera ul li{
+    list-style: none;
+    display: inline;
+    padding : 10px 10px ;
+    font-size: 20px;
+    cursor: pointer;
+}
+.elemento{
+    text-decoration: none;
+}
+.logo{
+    font-weight: bolder;
+    font-size: 25px;
+    color: black;
+    float: left;
+    position: relative;
+    top: 5%;
+    left: 2%;
+    width: 40px;
+}
+.navbar a:hover{
+    background: rgba(120, 62, 46, 0.4);
+    color: rgb(255, 222, 5);
+}
+
+/* banner */
+#intro-page{
+    padding: 20px 0;
+    width: 100%;
+    position: relative;
+}
+#intro-page img{
+    width: 100%;
+    height: 250px;
+    opacity: 0.7;
+    filter: grayscale(1); 
+}
+#intro-page .contenedor-intro{
+    position: absolute;
+    top: 45%;
+    left: 25%;
+    color: rgba(120, 62, 46);
+    opacity: 0.8;
+    background: black;
+    font-size:35px;
+}
+
+/* Body */
+h2{
+    color:  rgba(120, 62, 46);
+    font-size: 40px;
+}
+#contenedor{
+    max-width: 1400px;
+    padding: 0.1em;
+    text-align: center;
+}
+.principal{
+    border-radius: 0.5em;
+    display: inline-block;
+    margin: 0.2em auto;
+    max-width: 960px;
+    min-height: 200px;
+    padding: 0.25em;
+    text-align: justify;
+    vertical-align: top;
+    width: 23%;
+}
+.taller{
+    display: inline-block;
+    width: 300px;
+    height: 250px;
+}
+
+/* Seccion de muro */
+.cont-muro{
+    padding: 25px;
+}
+.muro img{
+    width: 960px;
+    height: 700px;
+}
+
+/* seccion de temas */
+.cont-temas ul{
+    width: 960px;
+    height: 150px;
+}
+#lista-temas li{
+    text-align: left;
+    font-size: 20px;
+}
+#lista-temas a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+#lista-temas li a:hover{
+    background-color: rgba(222, 184, 135, 0.747);
+    color: rgba(120, 62, 46);
+}
+
+
+
+/* footer */
+.foo-menu li{
+    margin-top: 20px;
+    display: inline-flex;
+    padding-left: 10px;
+    margin-left: 50px;
+}
+.foo-menu a{
+    text-decoration: none;
+    font-size: 18px;
+}
+
+
+.redes i{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 30px;
+}
